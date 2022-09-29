@@ -51,7 +51,7 @@ const StyledPageElement = styled.span`
 `;
 
 export function TableFooter({ dataObj, currentPage, setCurrentPage }) {
-  const paginationSize = 2;
+  const paginationSize = 5;
   const totalPages = dataObj?.totalPages || 0;
   const pagesArray = new Array(totalPages).fill(null).map((_, i) => i);
 
